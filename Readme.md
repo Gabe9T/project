@@ -19,16 +19,16 @@ _This application shows all the projects that have seen finished in class durrin
 https://p2nts.github.io/project/
 
 ## Setup/Installation Requirements
-
+* _Make Sure to have the Live server extension for VSCode_
 * _Make live server on bottom right of vscode_
-* _Right click to open_
+* _Right click "Open with live server" to view _
 
 
 
 
 ## Known Bugs
 
-* _No bugs known as of now._
+* _Trying to find a way to remove emojis from just the Projects section to make it look cleaner._
 
 
 ## License

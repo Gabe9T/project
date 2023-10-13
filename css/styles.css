@@ -1,10 +1,11 @@
 /*for background things*/
 .all {
+    color: teal;
     background-color: salmon;
-    color: aliceblue;
     background-image: url("../images/background.gif");
     background-repeat: no-repeat;
     background-size: cover;
+
 
 }
 /*sizes picture*/
@@ -20,24 +21,24 @@
 #name {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
+
 }
 
 
 
 /*moves project section to the left side of page */
 .left-side-line {
-
     float: left;
+
 
 }
 
 /*resizing lines in project section*/
 .langage {
-
     font-size: small;
 }
 
-/*makes text in project smaller*/
+/*makes text in projects smaller*/
 .smaller-text {
     font-size: 50%;
 }
@@ -45,6 +46,7 @@
 /*puts other 3 sections onto the right side*/
 .aboutmeBackgroundInterests {
     float: right;
+
 }
 
 
@@ -59,7 +61,7 @@ li::before {
 ul {
     list-style-type: none;
 }
-
+/*moves headers to the middle of bullet points*/
 .middle-of-bullets {
 
     padding-left: 120px;
@@ -69,7 +71,7 @@ ul {
 
 /*for resizing page*/
 @media screen and (max-width: 680px) {
-    body {
-        background-color: black;
-    }
+    
+   
+    
 }
