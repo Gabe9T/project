@@ -1,12 +1,25 @@
 .all{
 
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 background-color: salmon;
 text-align: center;
+background-image: url("../images/background5.gif");
+background-repeat: no-repeat;
+background-size: cover;
+color: aliceblue;
 
 
 }
 
+#name{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.headers{
+
+
+
+}
 
 .langage{
 
@@ -16,19 +29,20 @@ font-size: small;
 
 
 
-.bullets{
+li::before { 
+    content: '\1F47D';
+    margin-left: -20px;
+    margin-right: 10px;
 
-    li::before { 
-        content: '\1F982';
-        margin-left: -20px;
-        margin-right: 10px;
-
-        bulletpoints: ul {
-            list-style-type: none;
-        }
+    bulletpoints: ul {
+        list-style-type: none;
     }
-
 }
+
+ul {
+    list-style-type: none;
+}
+
 
 
 
