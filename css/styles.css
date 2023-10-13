@@ -8,11 +8,10 @@
     
 }
 .column {
-    width:25%;
+    width:25vw;
     box-sizing: border-box;
-    margin: 0 0 0 30px;
-    border: ridge 10px rgb(3, 3, 2);
-    margin-left: 320px;
+    border: ridge 10px rgb(50, 138, 76);
+    margin-left: 300px;
 }
 
 
@@ -24,7 +23,7 @@
 
 
 
-/*moves project section to the left side of page*/
+/*moves project section to the left side of page */
 .left-side-line {
 
     float: left;
@@ -62,7 +61,7 @@ ul {
 
 .middle-of-bullets{
 
-padding-left: 150px;
+padding-left: 120px;
 
 }
 
@@ -74,13 +73,3 @@ padding-left: 150px;
     }
 }
 
-/*
-.headers {}
-
-.textalign {
-    text-align: center;
-}
-li { 
-    margin-left: auto;
-margin-right: auto;
-}
