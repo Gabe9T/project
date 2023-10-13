@@ -5,8 +5,6 @@
     background-image: url("../images/background.gif");
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
 /*sizes picture*/
 .column {
@@ -21,34 +19,34 @@
 #name {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-
 }
 
+/*moves headers to the middle of bullet points*/
+.middle-of-bullets {
 
+    padding-left: 120px;
+
+}
 
 /*moves project section to the left side of page */
-.left-side-line {
+.left-side-float {
     float: left;
-
-
 }
 
-/*resizing lines in project section*/
+/*makes what langage used text smaller*/
 .langage {
     font-size: small;
 }
 
-/*makes text in projects smaller*/
+/*makes text in projects area more condensed*/
 .smaller-text {
     font-size: 50%;
 }
 
 /*puts other 3 sections onto the right side*/
-.aboutmeBackgroundInterests {
+.rightsidefloat {
     float: right;
-
 }
-
 
 /*for emojis bullets*/
 li::before {
@@ -57,17 +55,6 @@ li::before {
     margin-right: 10px;
     list-style-type: none;
 }
-
-ul {
-    list-style-type: none;
-}
-/*moves headers to the middle of bullet points*/
-.middle-of-bullets {
-
-    padding-left: 120px;
-
-}
-
 
 /*for resizing page*/
 @media screen and (max-width: 680px) {
