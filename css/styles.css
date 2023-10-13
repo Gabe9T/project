@@ -1,3 +1,4 @@
+/*for background things*/
 .all {
     background-color: salmon;
     background-image: url("../images/background.gif");
@@ -6,39 +7,39 @@
     color: aliceblue;
     
 }
-.aboutmeBackgroundInterests{
-    float: right;
-
-}
 
 
+/*puts name in center and adds font to it*/
 #name {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-align: center;
 }
-
+/*makes image to fit size*/
 .imagess {
-    width: 20%;
-    margin: 0 0 0 0px;
-
-}
-.smaller-text{
-    font-size: 50%;
-}
-
-
-
-
-
-
-
-
-
- .left-side-line {
+    width: 20%;    
+    }
+/*moves project section to the left side of page*/
+.left-side-line {
 
     float: left;
 }
 
+/*resizing lines in project section*/
+.langage {
+
+    font-size: small;
+}
+/*makes text in project smaller*/
+.smaller-text{
+    font-size: 50%;
+}
+/*puts other 3 sections onto the right side*/
+.aboutmeBackgroundInterests{
+    float: right;
+}
+
+
+/*for emojis bullets*/
 li::before {
     content: '\1F47D';
     margin-left: -20px;
@@ -48,12 +49,18 @@ li::before {
 ul {
     list-style-type: none;
 }
-.langage {
 
-    font-size: small;
+/*for resizing page*/
+@media {
+    
+
+FINSIH THIS
 
 
 }
+
+
+
 
 /*
 .headers {}
