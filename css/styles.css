@@ -1,35 +1,40 @@
-.all{
-
-
-background-color: salmon;
-text-align: center;
-background-image: url("../images/background5.gif");
-background-repeat: no-repeat;
-background-size: cover;
-color: aliceblue;
-
-
+.all {
+    background-color: salmon;
+    text-align: center;
+    background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
 }
 
-#name{
+#name {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
-.headers{
 
-
-
-}
-
-.langage{
-
-font-size: small;
-
+.imagess {
+    width="200" 
+    height="200"
 }
 
 
+.left-side-line{
 
-li::before { 
+    float: left;
+}
+
+
+.langage {
+
+    font-size: small;
+
+}
+
+
+
+
+
+li::before {
     content: '\1F47D';
     margin-left: -20px;
     margin-right: 10px;
@@ -43,15 +48,8 @@ ul {
     list-style-type: none;
 }
 
-
-
-
-.textalign
-{
-text-align: center;
+.textalign {
+    text-align: center;
 }
 
-.imagess{
-    width="200" 
-    height="200"
-}
+.headers {}
