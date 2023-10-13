@@ -1,46 +1,42 @@
 .all {
     background-color: salmon;
-    text-align: center;
     background-image: url("../images/background.gif");
     background-repeat: no-repeat;
     background-size: cover;
     color: aliceblue;
     
 }
+.aboutmeBackgroundInterests{
+    float: right;
+
+}
+
 
 #name {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+text-align: center;
 }
 
 .imagess {
-    width: 200px;
+    width: 20%;
+    margin: 0 0 0 0px;
 
+}
+.smaller-text{
+    font-size: 50%;
 }
 
 
-.left-side-line {
 
 
-}
 
 
-.langage {
-
-    font-size: small;
-
-}
- .h2{
-
-    text-decoration: underline;
- }
 
 
- li { 
-    
-    margin-left: auto;
-margin-right: auto;
-width: 500px;
+
+ .left-side-line {
+
+    float: left;
 }
 
 li::before {
@@ -52,12 +48,20 @@ li::before {
 ul {
     list-style-type: none;
 }
+.langage {
+
+    font-size: small;
 
 
+}
 
 /*
 .headers {}
 
 .textalign {
     text-align: center;
+}
+li { 
+    margin-left: auto;
+margin-right: auto;
 }
