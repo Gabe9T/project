@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: aliceblue;
+    
 }
 
 #name {
@@ -13,14 +14,14 @@
 }
 
 .imagess {
-    width="200" 
-    height="200"
+    width: 200px;
+
 }
 
 
-.left-side-line{
+.left-side-line {
 
-    float: left;
+
 }
 
 
@@ -29,27 +30,34 @@
     font-size: small;
 
 }
+ .h2{
+
+    text-decoration: underline;
+ }
 
 
-
-
+ li { 
+    
+    margin-left: auto;
+margin-right: auto;
+width: 500px;
+}
 
 li::before {
     content: '\1F47D';
     margin-left: -20px;
     margin-right: 10px;
-
-    bulletpoints: ul {
-        list-style-type: none;
-    }
+    list-style-type: none;
 }
-
 ul {
     list-style-type: none;
 }
 
+
+
+/*
+.headers {}
+
 .textalign {
     text-align: center;
 }
-
-.headers {}
