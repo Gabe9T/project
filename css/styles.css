@@ -1,27 +1,34 @@
 /*for background things*/
 .all {
     background-color: salmon;
+    color: aliceblue;
     background-image: url("../images/background.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    color: aliceblue;
     
+}
+.column {
+    width:25%;
+    box-sizing: border-box;
+    margin: 0 0 0 30px;
+    border: ridge 10px rgb(3, 3, 2);
+    margin-left: 320px;
 }
 
 
 /*puts name in center and adds font to it*/
 #name {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-text-align: center;
+    text-align: center;
 }
-/*makes image to fit size*/
-.imagess {
-    width: 20%;    
-    }
+
+
+
 /*moves project section to the left side of page*/
 .left-side-line {
 
     float: left;
+    
 }
 
 /*resizing lines in project section*/
@@ -29,12 +36,14 @@ text-align: center;
 
     font-size: small;
 }
+
 /*makes text in project smaller*/
-.smaller-text{
+.smaller-text {
     font-size: 50%;
 }
+
 /*puts other 3 sections onto the right side*/
-.aboutmeBackgroundInterests{
+.aboutmeBackgroundInterests {
     float: right;
 }
 
@@ -46,21 +55,24 @@ li::before {
     margin-right: 10px;
     list-style-type: none;
 }
+
 ul {
     list-style-type: none;
 }
 
-/*for resizing page*/
-@media {
-    
+.middle-of-bullets{
 
-FINSIH THIS
-
+padding-left: 150px;
 
 }
 
 
-
+/*for resizing page*/
+@media screen and (max-width: 680px) {
+    body {
+        background-color: black;
+    }
+}
 
 /*
 .headers {}
