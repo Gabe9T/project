@@ -1,0 +1,43 @@
+.all{
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: salmon;
+text-align: center;
+
+
+}
+
+
+.langage{
+
+font-size: small;
+
+}
+
+
+
+.bullets{
+
+    li::before { 
+        content: '\1F982';
+        margin-left: -20px;
+        margin-right: 10px;
+
+        bulletpoints: ul {
+            list-style-type: none;
+        }
+    }
+
+}
+
+
+
+.textalign
+{
+text-align: center;
+}
+
+.imagess{
+    width="200" 
+    height="200"
+}
