@@ -5,10 +5,11 @@
     background-image: url("../images/background.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
+/*sizes picture*/
 .column {
-    width:25vw;
+    width: 25vw;
     box-sizing: border-box;
     border: ridge 10px rgb(50, 138, 76);
     margin-left: 300px;
@@ -27,7 +28,7 @@
 .left-side-line {
 
     float: left;
-    
+
 }
 
 /*resizing lines in project section*/
@@ -59,9 +60,9 @@ ul {
     list-style-type: none;
 }
 
-.middle-of-bullets{
+.middle-of-bullets {
 
-padding-left: 120px;
+    padding-left: 120px;
 
 }
 
@@ -72,4 +73,3 @@ padding-left: 120px;
         background-color: black;
     }
 }
-

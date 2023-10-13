@@ -1,6 +1,6 @@
-# _{Gabe's Portfilio}_
+# _Gabe's Portfilio_
 
-#### By _**{LGabriel Tucker}**_
+#### By _**Gabriel Tucker**_
 
 #### _Portfilio of: Projects, About me, and Background_
 
@@ -12,19 +12,23 @@
 
 ## Description
 
-_this application shows all the projects that have seen finished in class durring the first week, gives links to each github page. also has more info about me on the side._
+_This application shows all the projects that have seen finished in class durring the first week. Gives links to each github page. Also has more info about me on the side._
+
+## Github Page Link
+
+https://p2nts.github.io/project/
 
 ## Setup/Installation Requirements
 
 * _Make live server on bottom right of vscode_
-* _right click to open _
+* _Right click to open_
 
 
 
 
 ## Known Bugs
 
-* _no bugs known as of now._
+* _No bugs known as of now._
 
 
 ## License
