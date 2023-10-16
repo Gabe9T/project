@@ -1,19 +1,19 @@
 /*for background things*/
 .all {
-    color: teal;
+    color: rgb(0, 0, 0);
     background-color: salmon;
-    background-image: url("../images/background.gif");
+    background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*sizes picture*/
-.column {
-    width: 25vw;
-    box-sizing: border-box;
-    border: ridge 10px rgb(50, 138, 76);
-    margin-left: 300px;
-}
 
+/*sizes and puts border on picture*/
+.borderr{
+    width: 450px;
+    box-sizing: border-box;
+    border: ridge 10px rgb(0, 0, 0);
+    margin-left: 280px
+}
 
 /*puts name in center and adds font to it*/
 #name {
@@ -21,19 +21,19 @@
     text-align: center;
 }
 
-/*moves headers to the middle of bullet points*/
-.middle-of-bullets {
-
-    padding-left: 120px;
-
-}
-
-/*moves project section to the left side of page */
-.left-side-float {
+/*moves projects section to the left side of page & add border*/
+#left-side-float {
     float: left;
+    text-align: center;
+    border-style:dashed;
+    border-width: 5px;
+    border-color:rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: tan; opacity: .8;
+    padding: 10px;
 }
 
-/*makes what langage used text smaller*/
+/*makes langage used text in projects section look smaller*/
 .langage {
     font-size: small;
 }
@@ -43,9 +43,16 @@
     font-size: 50%;
 }
 
-/*puts other 3 sections onto the right side*/
-.rightsidefloat {
+/*puts other 3 sections onto the right side & add border*/
+#rightsidefloat {
     float: right;
+    text-align: center;
+    border-style:dashed;
+    border-width: 5px;
+    border-color:rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: tan; opacity: .8;
+    padding: 10px;
 }
 
 /*for emojis bullets*/
@@ -55,3 +62,4 @@ li::before {
     margin-right: 10px;
     list-style-type: none;
 }
+

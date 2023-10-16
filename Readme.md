@@ -28,7 +28,7 @@ https://p2nts.github.io/project/
 
 ## Known Bugs
 
-* _Trying to find a way to remove emojis from just the Projects section to make it look cleaner._
+* _Emoji covering 2. on project list._
 
 
 ## License
